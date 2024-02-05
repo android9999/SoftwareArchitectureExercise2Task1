@@ -6,11 +6,11 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 import com.mygdx.game.GdxGame;
 
-public class GameState extends State
+public class PlayState extends State
 {
     private Ball ball;
     private Texture bg;
-    public GameState(GameStateManager gsm) {
+    public PlayState(GameStateManager gsm) {
         super(gsm);
         ball = new Ball(new Vector2(-335, -640));
         bg = new Texture("background.png");
