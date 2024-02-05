@@ -11,6 +11,7 @@ import com.mygdx.game.States.MenuStates;
 
 
 public class GdxGame extends ApplicationAdapter {
+	// screen of my phone
 	public static final int WIDTH = 1440;
 	public static final int HEIGHT = 720;
 	public static final String TITLE = "Exercise 1 - Technology Introduction"; // title
