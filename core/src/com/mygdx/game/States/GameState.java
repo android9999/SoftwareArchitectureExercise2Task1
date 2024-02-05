@@ -33,4 +33,9 @@ public class GameState extends State
         sb.draw(ball.img, ball.position.x, ball.position.y, 8, 8);
         sb.end();
     }
+    @Override
+    public void dispose()
+    {
+        bg.dispose();
+    }
 }

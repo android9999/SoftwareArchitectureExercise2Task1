@@ -15,7 +15,7 @@ public class GdxGame extends ApplicationAdapter {
 	public static final int WIDTH = 1440;
 	public static final int HEIGHT = 720;
 	public static final String TITLE = "Exercise 1 - Technology Introduction"; // title
-	private GameStateManager gsm;
+	private GameStateManager gsm; //very important class
 	SpriteBatch batch;
 
 	
