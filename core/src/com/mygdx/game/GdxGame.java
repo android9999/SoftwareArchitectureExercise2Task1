@@ -2,12 +2,10 @@ package com.mygdx.game;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
 import com.mygdx.game.States.GameState;
 import com.mygdx.game.States.GameStateManager;
-import com.mygdx.game.States.MenuStates;
 
 
 public class GdxGame extends ApplicationAdapter {
